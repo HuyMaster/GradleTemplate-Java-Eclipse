@@ -12,7 +12,7 @@ plugins {
 }
 
 application {
-    mainClass = ''
+    mainClass = 'com.github.huymaster.Main'
 }
 
 sourceCompatibility = 19
@@ -43,7 +43,7 @@ run {
 
 jar {
 	manifest { 
-    	attributes "Main-Class": ""
+    	attributes "Main-Class": "com.github.huymaster.Main"
   	}
   	
 	from {
